@@ -28,24 +28,44 @@
 
 body{
     background-color: var(--cor0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao)
 
 }
 header{
     color: white;
-    background-image: linear-gradient(var(--cor3), var(--cor4), var(--cor5));
+    background-image: linear-gradient(var(--cor3), var(--cor4) );
+    min-height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    
 }
 
 header h1{
     font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.493);
+}
+header p{
+    margin: auto;
+    max-width: 500px;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.2em;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.5);
 }
 nav{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(39, 39, 39, 0.301);
 }
 nav a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
 }
+
+
 main{
     background-color: white;
     min-width: 300px;
@@ -60,10 +80,21 @@ main{
 main h1{
     font-family: var(--fonte-especial);
     color: var(--cor4);
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.473);
 }
 main h2{
     font-family: var(--fonte-especial);
     color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor0), white);
+    
+    
+}
+main p{
+    text-align: justify;
+    
 }
 mark{
      
